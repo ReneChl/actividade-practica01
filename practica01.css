@@ -1,0 +1,42 @@
+header {
+    /*estilizando caçario*/
+    background-color: #a0b8a4;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+ header h1 {
+    /* estilizando h1*/
+   color: blue;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ header img {
+    width: 100px;
+ }
+
+.rene01 {
+    padding: 200px;
+    background-color: rgb(163, 208, 230);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.rene02 {
+    padding: 150px;
+    background-color: rgb(137, 152, 202);
+}
+.rene02 i {
+    font-size: 120px;
+   color: rgb(37, 5, 5);
+    
+}
+
+.rene03 {
+    padding: 200px;
+}
