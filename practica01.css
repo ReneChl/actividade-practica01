@@ -19,6 +19,10 @@ header {
     width: 100px;
  }
 
+ header i {
+    font-size: 50px;
+    color: rgb(105, 15, 223);
+ }
 .rene01 {
     padding: 200px;
     background-color: rgb(163, 208, 230);
@@ -33,10 +37,45 @@ header {
 }
 .rene02 i {
     font-size: 120px;
-   color: rgb(37, 5, 5);
+    color: blue;
+    align-items: center;
+
+}
+
+.rene02 p {
+    color: darkgreen;
+    font-size: 20px;
+    font-family: cursive;
     
 }
 
+
 .rene03 {
     padding: 200px;
+    background-image: url(imagen/fabric-43354_1280.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.rene03 button {
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(241, 245, 23);
+    color: rgba(10, 2, 2, 0.952);
+    border-radius: 10xp;
+}
+
+footer {
+    background-color: #FA5882;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 40px;
 }
