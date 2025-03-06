@@ -30,6 +30,11 @@ header {
     align-items: center;
     gap: 30px;
 }
+.rene01 p {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .rene02 {
     padding: 150px;
