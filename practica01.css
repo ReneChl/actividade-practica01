@@ -58,11 +58,11 @@ header {
 .rene03 {
     padding: 200px;
     background-image: url(imagen/fabric-43354_1280.jpg);
-    background-position: bottom;
+    background-attachment: fixed;/*para fijar imagen, sin mover*/
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+    display: flex;/*tornando os itens flex*/
+    justify-content: center;/*alinhando o botão ao centro*/
 }
 
 .rene03 button {
