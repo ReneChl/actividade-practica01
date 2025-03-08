@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*estilizando o header*/
+
+header {
+    padding: 25px;/*resposabel pelo emorendimento interno/tamanho*/
+    background-color: black;/*cor de fundo*/
+    display: flex;/*tornando os itens lado a lado*/
+    justify-content: center;/*justificando o conteúdo ao centro*/
+    gap: 50px;/*espaço entre os elementos*/
+    align-items: center;/*resposábel por alinhar verticalmente os items*/
+}
+/*estilizando o icone*/
+header i {
+    color: white; /*cor  de icone*/
+    font-size: 60px;/*tamanho de icone*/
+}
+/*estilizando o título*/
+header h1 {
+    color: yellow; /*cor da letra*/
+    font-size: 36px; /*tamanho da letra*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
+}
+/*Fin do cabeçalho*/
+
+/*inicio primeira sessão*/
+.preimeira-sessão {
+    padding: 160px;/*preendimento /tamanho*/
+    background-color: rgb(98, 190, 226);/*cor de fundo*/
+    display: flex;/*tornando flex/lado a lado*/
+    justify-content: center;/*justificando o conteúdo ao centro*/
+    align-items: center;/*alineamento vertical dos itens*/
+    gap: 60px;/*espaço entre os elementos*/
+}
+.preimeira-sessão samp {
+    font-size: 45px;/*tamanho da letra*/
+    color:yellow ;/*cor da letra*/
+}
+.preimeira-sessão img {
+    width: 200px;/*largura de imagen*/
+    height:150px;/*altura de imagen*/
+}
+.preimeira-sessão  p {
+    color: rgb(5, 80, 43);/*cor da letra*/
+    font-size: 30px;/* tamanho da letrea*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
+}
+/*FIM DA PREMEIRA SESSÃO*/
+
+/*INICIO SEGUNDA SESSÃO*/
+
+.segunda-sessão {
+    background-color: black;/*cor de fundo*/
+    padding: 160PX;/*preenchimento*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.segunda-sessão i {
+    font-size: 50px;/*tamanho de icone*/
+    color: yellow;/*cor de icone*/
+}
+.segunda-sessão p {
+    color: white;/*cor da letra*/
+    font-size: 30px;/* tamanho da letrea*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
+}
+ /*fin da segunda sessão*/
+
+ /*Inicio de terceira sessão*/
+.terceira-sessão {
+    padding: 200px;
+    background-image: url(imagen/fabric-43354_1280.jpg);
+    background-position: center;
+    background-size: cover;/**/
+    background-repeat: no-repeat;/*desabilitando repetição imegen*/
+    background-attachment: fixed; /*fixando iemgen*/
+
+    display: flex;
+    justify-content: center
+
+    
+}
+.terceira-sessão button {
+    padding: 10px;
+    
+}
