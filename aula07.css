@@ -5,7 +5,7 @@
 
 header {
     padding: 25px;/*resposabel pelo emorendimento interno/tamanho*/
-    background-color: black;/*cor de fundo*/
+    background-color: rgb(8, 0, 0);/*cor de fundo*/
     display: flex;/*tornando os itens lado a lado*/
     justify-content: center;/*justificando o conteúdo ao centro*/
     gap: 50px;/*espaço entre os elementos*/
@@ -24,6 +24,23 @@ header h1 {
 }
 /*Fin do cabeçalho*/
 
+
+.list-menu ul { /*  Alteração na lista não ordenada (elementp pai)*/
+    display: flex; /*tornamdo ( li ) flex/lado a lado*/
+    justify-content: center;/*Deixando elas centralizadas*/
+    gap: 20px;/*Espaço entre as (li)*/
+}
+
+.list-menu ul li { /* Alteração da lista (li) (elemento filho)*/
+    list-style: none;/* Removendo o estilo de lista aplicando por padrão*/
+}
+
+.list-menu ul li a {
+    text-decoration: none; /*remoção do sublinhado (decoração de texto nenhuma)*/
+    color: yellow;
+}
+
+
 /*inicio primeira sessão*/
 .preimeira-sessão {
     padding: 160px;/*preendimento /tamanho*/
@@ -38,8 +55,8 @@ header h1 {
     color:yellow ;/*cor da letra*/
 }
 .preimeira-sessão img {
-    width: 200px;/*largura de imagen*/
-    height:150px;/*altura de imagen*/
+    width: 600px;/*largura de imagen*/
+    height:400px;/*altura de imagen*/
 }
 .preimeira-sessão  p {
     color: rgb(5, 80, 43);/*cor da letra*/
@@ -86,5 +103,42 @@ header h1 {
 }
 .terceira-sessão button {
     padding: 10px;
+    background-color: blue;
+    color: blanchedalmond;
+    font-size: 15px;
+    text-align: center;
     
+}
+footer {
+    padding: 25px;
+    background-color: black;
+
+    text-align: center; /*momentãneo*/
+
+}
+footer p {
+    color: yellow; /**/
+    font-size: 25px;
+}
+
+footer i {
+    color: yellow; /*cor de ícone*/
+    font-size:25px ; /* tamanho de icone*/
+}
+
+
+.sessão-04 {
+    padding: 150px;/*Preenchimento/Tamanho de Section*/
+    background-color: black; /* Cor de fundo*/
+    display: flex;/*Deixando as Div`s lado a lado*/
+    gap: 10px; /*Espaçamento entre as caixas*/
+    justify-content: space-evenly; /*Justificando os conteúdo*/
+    
+}
+.sessão-04 div { /*Estilizando as DIV/CAIXAS (total 3)*/
+    width: 300px; /*largura de caixa*/
+    height:300px; /*Cor de fundo*/
+    background-color: blue; /*Cor de fundo da caixa*/
+    color: white; /*Cor da letra*/
+
 }
