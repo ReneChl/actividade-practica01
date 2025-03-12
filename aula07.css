@@ -4,141 +4,243 @@
 /*estilizando o header*/
 
 header {
-    padding: 25px;/*resposabel pelo emorendimento interno/tamanho*/
-    background-color: rgb(8, 0, 0);/*cor de fundo*/
-    display: flex;/*tornando os itens lado a lado*/
-    justify-content: center;/*justificando o conteúdo ao centro*/
-    gap: 50px;/*espaço entre os elementos*/
-    align-items: center;/*resposábel por alinhar verticalmente os items*/
+    padding: 25px;
+    /*resposabel pelo emorendimento interno/tamanho*/
+    background-color: rgb(8, 0, 0);
+    /*cor de fundo*/
+    display: flex;
+    /*tornando os itens lado a lado*/
+    justify-content: center;
+    /*justificando o conteúdo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*resposábel por alinhar verticalmente os items*/
 }
+
 /*estilizando o icone*/
 header i {
-    color: white; /*cor  de icone*/
-    font-size: 60px;/*tamanho de icone*/
+    color: white;
+    /*cor  de icone*/
+    font-size: 60px;
+    /*tamanho de icone*/
 }
+
 /*estilizando o título*/
 header h1 {
-    color: yellow; /*cor da letra*/
-    font-size: 36px; /*tamanho da letra*/
-    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
+    color: yellow;
+    /*cor da letra*/
+    font-size: 36px;
+    /*tamanho da letra*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipo de font*/
 }
+
 /*Fin do cabeçalho*/
 
 
-.list-menu ul { /*  Alteração na lista não ordenada (elementp pai)*/
-    display: flex; /*tornamdo ( li ) flex/lado a lado*/
-    justify-content: center;/*Deixando elas centralizadas*/
-    gap: 20px;/*Espaço entre as (li)*/
+.list-menu ul {
+    /*  Alteração na lista não ordenada (elementp pai)*/
+    display: flex;
+    /*tornamdo ( li ) flex/lado a lado*/
+    justify-content: center;
+    /*Deixando elas centralizadas*/
+    gap: 20px;
+    /*Espaço entre as (li)*/
 }
 
-.list-menu ul li { /* Alteração da lista (li) (elemento filho)*/
-    list-style: none;/* Removendo o estilo de lista aplicando por padrão*/
+.list-menu ul li {
+    /* Alteração da lista (li) (elemento filho)*/
+    list-style: none;
+    /* Removendo o estilo de lista aplicando por padrão*/
 }
 
 .list-menu ul li a {
-    text-decoration: none; /*remoção do sublinhado (decoração de texto nenhuma)*/
+    text-decoration: none;
+    /*remoção do sublinhado (decoração de texto nenhuma)*/
     color: yellow;
 }
 
 
 /*inicio primeira sessão*/
 .preimeira-sessão {
-    padding: 160px;/*preendimento /tamanho*/
-    background-color: rgb(98, 190, 226);/*cor de fundo*/
-    display: flex;/*tornando flex/lado a lado*/
-    justify-content: center;/*justificando o conteúdo ao centro*/
-    align-items: center;/*alineamento vertical dos itens*/
-    gap: 60px;/*espaço entre os elementos*/
+    padding: 160px;
+    /*preendimento /tamanho*/
+    background-color: rgb(98, 190, 226);
+    /*cor de fundo*/
+    display: flex;
+    /*tornando flex/lado a lado*/
+    justify-content: center;
+    /*justificando o conteúdo ao centro*/
+    align-items: center;
+    /*alineamento vertical dos itens*/
+    gap: 60px;
+    /*espaço entre os elementos*/
 }
+
 .preimeira-sessão samp {
-    font-size: 45px;/*tamanho da letra*/
-    color:yellow ;/*cor da letra*/
+    font-size: 45px;
+    /*tamanho da letra*/
+    color: yellow;
+    /*cor da letra*/
 }
+
 .preimeira-sessão img {
-    width: 600px;/*largura de imagen*/
-    height:400px;/*altura de imagen*/
+    width: 600px;
+    /*largura de imagen*/
+    height: 400px;
+    /*altura de imagen*/
 }
-.preimeira-sessão  p {
-    color: rgb(5, 80, 43);/*cor da letra*/
-    font-size: 30px;/* tamanho da letrea*/
-    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
+
+.preimeira-sessão p {
+    color: rgb(5, 80, 43);
+    /*cor da letra*/
+    font-size: 30px;
+    /* tamanho da letrea*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipo de font*/
 }
+
 /*FIM DA PREMEIRA SESSÃO*/
 
 /*INICIO SEGUNDA SESSÃO*/
 
 .segunda-sessão {
-    background-color: black;/*cor de fundo*/
-    padding: 160PX;/*preenchimento*/
+    background-color: black;
+    /*cor de fundo*/
+    padding: 160PX;
+    /*preenchimento*/
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     flex-direction: column;
 }
-.segunda-sessão i {
-    font-size: 50px;/*tamanho de icone*/
-    color: yellow;/*cor de icone*/
-}
-.segunda-sessão p {
-    color: white;/*cor da letra*/
-    font-size: 30px;/* tamanho da letrea*/
-    font-family: Arial, Helvetica, sans-serif;/*tipo de font*/
-}
- /*fin da segunda sessão*/
 
- /*Inicio de terceira sessão*/
+.segunda-sessão i {
+    font-size: 50px;
+    /*tamanho de icone*/
+    color: yellow;
+    /*cor de icone*/
+}
+
+.segunda-sessão p {
+    color: white;
+    /*cor da letra*/
+    font-size: 30px;
+    /* tamanho da letrea*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipo de font*/
+}
+
+/*fin da segunda sessão*/
+
+/*Inicio de terceira sessão*/
 .terceira-sessão {
     padding: 200px;
     background-image: url(imagen/fabric-43354_1280.jpg);
     background-position: center;
-    background-size: cover;/**/
-    background-repeat: no-repeat;/*desabilitando repetição imegen*/
-    background-attachment: fixed; /*fixando iemgen*/
+    background-size: cover;
+    /**/
+    background-repeat: no-repeat;
+    /*desabilitando repetição imegen*/
+    background-attachment: fixed;
+    /*fixando iemgen*/
 
     display: flex;
     justify-content: center
-
-    
 }
+
 .terceira-sessão button {
     padding: 10px;
     background-color: blue;
     color: blanchedalmond;
     font-size: 15px;
     text-align: center;
-    
+
 }
+
 footer {
     padding: 25px;
     background-color: black;
 
-    text-align: center; /*momentãneo*/
+    text-align: center;
+    /*momentãneo*/
 
 }
+
 footer p {
-    color: yellow; /**/
+    color: yellow;
+    /**/
     font-size: 25px;
 }
 
 footer i {
-    color: yellow; /*cor de ícone*/
-    font-size:25px ; /* tamanho de icone*/
+    color: yellow;
+    /*cor de ícone*/
+    font-size: 25px;
+    /* tamanho de icone*/
 }
 
 
 .sessão-04 {
-    padding: 150px;/*Preenchimento/Tamanho de Section*/
-    background-color: black; /* Cor de fundo*/
-    display: flex;/*Deixando as Div`s lado a lado*/
-    gap: 10px; /*Espaçamento entre as caixas*/
-    justify-content: space-evenly; /*Justificando os conteúdo*/
-    
-}
-.sessão-04 div { /*Estilizando as DIV/CAIXAS (total 3)*/
-    width: 300px; /*largura de caixa*/
-    height:300px; /*Cor de fundo*/
-    background-color: blue; /*Cor de fundo da caixa*/
-    color: white; /*Cor da letra*/
+    padding: 150px;
+    /*Preenchimento/Tamanho de Section*/
+    background-color: black;
+    /* Cor de fundo*/
+    display: flex;
+    /*Aqui estamos deizando as caixas Deixando lado a lado*/
+    gap: 10px;
+    /*Espaçamento ou brecha entre as caixas, realiza wspaciamiento entre caixas*/
+    justify-content: space-evenly;
+    /*Justificando os conteúdo*/
 
 }
+
+
+.sessão-04 div {
+    /*Estilizando as DIV/CAIXAS (total 3)*/
+    width: 300px;
+    /*largura de caixa*/
+    height: 300px;
+    /*Cor de fundo*/
+    background-color: rgb(212, 219, 219);
+    /*Cor de fundo da caixa*/
+    text-align: center;
+    /*Estou alinhando o texto ao centro*/
+    padding: 15px;
+    /*margem interna da csixa*/
+
+}
+
+.sessão-04 div h2 {
+    color: darkgreen;
+    font-size: 30px;
+}
+.sessão-04 div i {
+    color: rgb(219, 5, 23);
+    font-size: 25px;
+
+}
+
+.div-02 {
+    /*Aqui estamos alterando a segunda caixa/ divi*/
+    background-image: url(imagen/download.jpg);
+    /*colocando imagen buscado de internet img 300x300 , despues bajar imagen*/
+    background-size: cover;
+}
+
+.div-03 i {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*Tamanho da letra*/
+    color: rgb(7, 27, 214);/*cor da letra*/
+    font-weight: 600;/*PESO DA FONT*/
+    line-height: 25px;/*DISTANCIA ENTRE AS LINHAS*/
+}
+
+
+

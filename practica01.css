@@ -1,6 +1,6 @@
 header {
     /*estilizando caçario*/
-    background-color: #a0b8a4;
+    background-color: #ebb4cb;
     text-align: center;
     padding: 10px;
     display: flex;
@@ -22,6 +22,20 @@ header {
  header i {
     font-size: 50px;
     color: rgb(105, 15, 223);
+ }
+
+ .list-menu ul {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ .list-menu ul li {
+    list-style: none;
+ }
+ .list-menu ul li a {
+    text-decoration: #FA5882;
+    color: rgb(7, 1, 5);
  }
 .rene01 {
     padding: 200px;
